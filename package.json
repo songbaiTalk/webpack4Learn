@@ -1,0 +1,32 @@
+{
+  "name": "webpack4learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.29.6",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config build/webpack.conf.js --mode production",
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/songbaiTalk/webpack4Learn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/songbaiTalk/webpack4Learn/issues"
+  },
+  "homepage": "https://github.com/songbaiTalk/webpack4Learn#readme"
+}
